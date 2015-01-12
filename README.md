@@ -1,4 +1,4 @@
-caveat
+Caveat
 ======
 
-Fashion + Technology Magazine
+Fashion + technology magazine
