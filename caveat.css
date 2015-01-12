@@ -1,41 +1,166 @@
-#mainlogo {
-	width: 200px; 
+/*@media only screen and (max-device-width: 480px) {
+        code for more mobile-friendly version
+	}*/
+ 
+.previews {
+    position: relative;
+    margin: 0 auto;
+    width: 800;
+    top: -315;
+    opacity: 0;
 }
 
-#sub {
-	text-align: right;
+#jack {
+    position: absolute;
+    display: block;
+    left: 80;
+    height: 450;
+    z-index: -1;
+}
+
+#art {
+    position: absolute;
+    display: block;
+    left: 60px;
+    height: 450;
+    z-index: -1;
+}
+
+#lipservice {
+    position: absolute;
+    display: block;
+    left: 141;
+    height: 450;
+    z-index: -1;
+}
+
+#children {
+    position: absolute;
+    display: block;
+    left: 60px;
+    height: 450;
+    z-index: -1;
+}
+
+#paris {
+    position: absolute;
+    display: block;
+    left: 45;
+    height: 450;
+    z-index: -1;
+}
+
+#translucent {
+    position: absolute;
+    display: block;
+    left: 64px;
+    height: 450;
+    z-index: -1;
+}
+
+#cover{
+    position: absolute;
+    display: block;
+    left: 222;
+    top: 2;
+    height: 450;
+    z-index: -1;
+}
+
+#logo {
+    position: relative;
+    margin: 0 auto;
+    width: 800;
+}
+
+.logo1 {
+    position: absolute;
+    top: 20;
+    right: 200;
+    width: 400;
+    opacity: 0;
+}
+
+.nav {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 160;
+    width: 800px;
+    
 }
 
 .nav a {
   color: #000000;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
+  opacity: 0;  
 }
 
-.nav li {
-  display: inline;
+
+
+
+.hexes {
+    position: relative;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    top: 185;
+    margin: 0 auto;
+    opacity: 0;
+    
 }
 
-.jumbotron h1 {
-
-	text-align: center;
-	text-shadow: none;
+hexes.hex1 {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    
 }
 
-.jumbotron p {
-
-	text-align: center;
-	text-shadow: none;
+.hex2 {
+    position: absolute;
+    top: 76;
+    left: 451;
+    opacity: 0;
 }
 
-.crop {
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
+.hex3 {
+    position: absolute;
+    top: 225;
+    left: 451;
+    opacity: 0;
 }
 
-.crop img {
-	width: 300px;
+.hex4 {
+    position: absolute;
+    top: 297;
+    left: 317;
+    opacity: 0;
 }
+
+.hex5 {
+    position: absolute;
+    top: 225;
+    left: 182;
+    opacity: 0;
+}
+
+.hex6 {
+    position: absolute;
+    top: 76;
+    left: 182;
+    opacity: 0;
+}
+
+.hexc {
+    position: absolute;
+    top: 148;
+    left: 317;
+    opacity: 0;
+}
+

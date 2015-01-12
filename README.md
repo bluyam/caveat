@@ -1,4 +1,4 @@
-caveat
+Caveat
 ======
 
-Fashion + Technology Magazine by Chivvistyles
+Fashion + technology magazine
